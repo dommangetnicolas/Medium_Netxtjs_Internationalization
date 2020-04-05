@@ -1,15 +1,18 @@
+import PropTypes from 'prop-types';
 import React from 'react';
+import {withTranslation} from '../utils/i18n';
+import LanguageSelector from './LanguageSelector';
 
-const Banner = () => (
+const Banner = ({t}) => (
 	<section id="banner">
-		<h2>Welcome</h2>
-		<p>That is a test page about <br/> Next.js Internationalization.</p>
-		<ul className="actions">
-			<li><button className="button special big">FRENCH</button></li>
-			<li><button href="#" className="button special big">ENGLISH</button></li>
-			<li><button href="#" className="button special big">GERMAN</button></li>
-		</ul>
+		<h2>{t('welcome')}</h2>
+		<p>{t('description')}</p>
+		<LanguageSelector/>
 	</section>
 );
 
-export default Banner;
+export default withTranslation('common')(Banner);
+
+Banner.propTypes = {
+	t: PropTypes.func.isRequired
+};

@@ -4,21 +4,24 @@
   "description": "Medium article about Internationalization in Next.js",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "repository": "https://github.com/dommangetnicolas/Medium_Netxtjs_Internationalization",
   "author": "Nicolas Dommanget-Muller",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "express": "^4.17.1",
     "next": "^9.3.4",
+    "next-i18next": "^4.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0"
+    "eslint-plugin-react": "^7.19.0",
+    "nodemon": "^2.0.2"
   }
 }

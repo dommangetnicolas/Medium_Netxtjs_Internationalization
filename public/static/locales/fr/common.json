@@ -1,0 +1,11 @@
+{
+  "welcome": "Bienvenue",
+  "description": "CECI EST UNE PAGE D'ESSAI SUR\nL'INTERNATIONALISATION NEXT.JS.",
+  "french": "Français",
+  "english": "Anglais",
+  "german": "Allemand",
+  "articleTitle": "EXEMPLE DE TEXTE",
+  "articleDescription": "SUR LES VOLCANS",
+  "article1StParagraph": "Un volcan est une structure géologique qui résulte de la montée d'un magma puis de l'éruption de matériaux (gaz et lave) issus de ce magma, à la surface de la croûte terrestre ou d'un autre astre. Il peut être aérien ou sous-marin.",
+  "article2NdParagraph": "Le magma provient de la fusion partielle du manteau et exceptionnellement de la croûte terrestre. L'éruption peut se manifester, de manière plus ou moins combinée, par des émissions de lave, par des émanations ou des explosions de gaz, par des projections de tephras, par des phénomènes hydromagmatiques, etc."
+}
