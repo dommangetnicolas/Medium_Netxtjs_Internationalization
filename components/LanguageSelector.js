@@ -23,4 +23,8 @@ const LanguageSelector = () => {
 	);
 };
 
+LanguageSelector.getInitialProps = async () => ({
+	namespacesRequired: ['common'],
+});
+
 export default LanguageSelector;

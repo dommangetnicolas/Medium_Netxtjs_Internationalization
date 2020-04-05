@@ -13,6 +13,10 @@ const Banner = ({t}) => (
 
 export default withTranslation('common')(Banner);
 
+Banner.getInitialProps = async () => ({
+	namespacesRequired: ['common'],
+});
+
 Banner.propTypes = {
 	t: PropTypes.func.isRequired
 };

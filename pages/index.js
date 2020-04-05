@@ -3,12 +3,16 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import LanguageSelector from '../components/LanguageSelector';
 import {useTranslation} from 'react-i18next';
+import Head from 'next/head';
 
 const Index = () => {
 	const {t} = useTranslation();
 
 	return (
 		<div>
+			<Head>
+				<title>Next.js Internationalization</title>
+			</Head>
 			<Header/>
 			<Banner/>
 
@@ -40,5 +44,9 @@ const Index = () => {
 		</div>
 	);
 };
+
+Index.getInitialProps = async () => ({
+	namespacesRequired: ['common'],
+});
 
 export default Index;
