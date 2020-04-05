@@ -2,10 +2,12 @@ import React from 'react';
 
 const Banner = () => (
     <section id="banner">
-        <h2>Spatial</h2>
-        <p>Lorem ipsum dolor sit amet nullam consequat <br/> interdum vivamus donce sed libero.</p>
+        <h2>Welcome</h2>
+        <p>That is a test page about <br/> Next.js Internationalization.</p>
         <ul className="actions">
-            <li><a href="#" className="button special big">Get Started</a></li>
+            <li><button className="button special big">FRENCH</button></li>
+            <li><button href="#" className="button special big">ENGLISH</button></li>
+            <li><button href="#" className="button special big">GERMAN</button></li>
         </ul>
     </section>
 );

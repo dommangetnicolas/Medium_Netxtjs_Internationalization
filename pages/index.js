@@ -4,27 +4,24 @@ import Banner from "../components/Banner";
 
 const Index = () => (
     <div>
-        <Header />
-        <Banner />
+        <Header/>
+        <Banner/>
 
         <section id="one" className="wrapper style1">
             <div className="container 75%">
                 <div className="row 200%">
                     <div className="6u 12u$(medium)">
                         <header className="major">
-                            <h2>Maecenas luctus lectus</h2>
-                            <p>Perspiciatis doloremque recusandae dolor</p>
+                            <h2>Sample text</h2>
+                            <p>About volcanoes</p>
                         </header>
                     </div>
                     <div className="6u$ 12u$(medium)">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ea mollitia corporis id,
-                            distinctio sunt veritatis officiis dolore reprehenderit deleniti voluptatibus harum magna,
-                            doloremque alias quisquam minus, eaque. Feugiat quod, nesciunt! Iste quos ipsam, iusto sit
-                            esse.</p>
-                        <p>Dolorum aspernatur maxime libero ratione quidem distinctio, placeat fugiat laborum voluptatum
-                            enim neque soluta vel sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia
-                            magnam exercitationem modi amet earum quia atque ipsum voluptas asperiores quas
-                            laboriosam.</p>
+                        <p>A volcano is a rupture in the crust of a planetary-mass object, such as Earth, that allows
+                            hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.</p>
+                        <p>Earth's volcanoes occur because its crust is broken into 17 major, rigid tectonic plates that
+                            float on a hotter, softer layer in its mantle. Therefore, on Earth, volcanoes are generally
+                            found where tectonic plates are diverging or converging, and most are found underwater.</p>
                     </div>
                 </div>
             </div>
@@ -33,11 +30,18 @@ const Index = () => (
         <section id="four" className="wrapper style3 special">
             <div className="container">
                 <header className="major">
-                    <h2>Aenean elementum ligula</h2>
-                    <p>Feugiat sed lorem ipsum magna</p>
+                    <p>THAT IS A TEST PAGE ABOUT <br /> NEXT.JS INTERNATIONALIZATION.</p>
                 </header>
                 <ul className="actions">
-                    <li><a href="#" className="button special big">Get in touch</a></li>
+                    <li>
+                        <button className="button special big">FRENCH</button>
+                    </li>
+                    <li>
+                        <button href="#" className="button special big">ENGLISH</button>
+                    </li>
+                    <li>
+                        <button href="#" className="button special big">GERMAN</button>
+                    </li>
                 </ul>
             </div>
         </section>
