@@ -1,0 +1,20 @@
+{
+  "name": "Medium_Nextjs_internationalization",
+  "version": "1.0.0",
+  "description": "Medium article about Internationalization in Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": "https://github.com/dommangetnicolas/Medium_Netxtjs_Internationalization",
+  "author": "Nicolas Dommanget-Muller",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
