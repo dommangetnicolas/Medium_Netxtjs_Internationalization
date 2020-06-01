@@ -5,7 +5,6 @@ const NextI18NextInstance = new NextI18Next({
 	otherLanguages: ['de', 'fr']
 });
 
-/* Optionally, export class methods as named exports */
 const {
 	appWithTranslation,
 	withTranslation,

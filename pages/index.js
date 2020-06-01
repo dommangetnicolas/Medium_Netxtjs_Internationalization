@@ -36,7 +36,7 @@ const Index = () => {
 			<section id="four" className="wrapper style3 special">
 				<div className="container">
 					<header className="major">
-						<p>THAT IS A TEST PAGE ABOUT <br/> NEXT.JS INTERNATIONALIZATION.</p>
+						<p>{t('description')}</p>
 					</header>
 					<LanguageSelector/>
 				</div>
