@@ -80,7 +80,7 @@ Reach out to me at one of the following places!
   <tr>
     <td>
       <div style="width: 120px;">
-        <img style="width: 120px;" src="https://avatars1.githubusercontent.com/u/46563166?s=460&u=8d851cf38c28b0f78cbacdccaa9f332e73687f52&v=4"/>
+        <img width="120" src="https://avatars1.githubusercontent.com/u/46563166?s=460&u=8d851cf38c28b0f78cbacdccaa9f332e73687f52&v=4"/>
     </div>
     </td>
     <td>
